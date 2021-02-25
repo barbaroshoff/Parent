@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="60">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} --- [%15.15t] %-40.40c{1.} : %m%n%ex
+        </Property>
+        <Property name="LOG_DIR">skynet/log</Property>
+    </Properties>
+    <Appenders>
+        <!-- Rolling File Appender -->
+        <RollingFile name="FileAppender"
+                     fileName="${LOG_DIR}/skynet-server.log"
+                     filePattern="${LOG_DIR}/archive/skynet-server-%d{yyyy-MM-dd}-%i.log.gz"
+                     ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100MB"/>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" compressionLevel="9"/>
+        </RollingFile>
+
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} --- [%15.15t] %-40.40c{1.} : %m%n%ex"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+        <Logger name="com.atomikos" level="INFO"/>
+        <Logger name="com.zaxxer.hikari" level="INFO"/>
+        <Logger name="org" level="DEBUG"/>
+        <Logger name="springfox" level="WARN"/>
+    </Loggers>
+</Configuration>

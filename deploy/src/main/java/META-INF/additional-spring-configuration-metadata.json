@@ -1,0 +1,77 @@
+{"properties": [
+  {
+    "name": "jms.consumers.concurrent.queue",
+    "type": "java.lang.String",
+    "description": "A description for 'jms.consumers.concurrent.queue'"
+  },
+  {
+    "name": "api.version",
+    "type": "java.lang.String",
+    "description": "A description for 'api.version'"
+  },
+  {
+    "name": "swagger.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.enabled'"
+  },
+  {
+    "name": "swagger.title",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.title'"
+  },
+  {
+    "name": "swagger.description",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.description'"
+  },
+  {
+    "name": "swagger.useDefaultResponseMessages",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.useDefaultResponseMessages'"
+  },
+  {
+    "name": "swagger.enableUrlTemplating",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.enableUrlTemplating'"
+  },
+  {
+    "name": "swagger.deepLinking",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.deepLinking'"
+  },
+  {
+    "name": "swagger.defaultModelsExpandDepth",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.defaultModelsExpandDepth'"
+  },
+  {
+    "name": "swagger.defaultModelExpandDepth",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.defaultModelExpandDepth'"
+  },
+  {
+    "name": "swagger.displayOperationId",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.displayOperationId'"
+  },
+  {
+    "name": "swagger.displayRequestDuration",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.displayRequestDuration'"
+  },
+  {
+    "name": "swagger.filter",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.filter'"
+  },
+  {
+    "name": "swagger.maxDisplayedTags",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.maxDisplayedTags'"
+  },
+  {
+    "name": "swagger.showExtensions",
+    "type": "java.lang.String",
+    "description": "A description for 'swagger.showExtensions'"
+  }
+]}
