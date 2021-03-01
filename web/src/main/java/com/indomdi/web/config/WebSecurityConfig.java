@@ -88,6 +88,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
         httpSecurity.cors().and().csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/register/**").permitAll()
+                .antMatchers("/admin/administration").hasRole(GuiRoles.ADMIN.role())
+                .antMatchers("/admin/monitoring").hasRole(GuiRoles.ADMIN.role())
                 .antMatchers(SWAGGER_WHITELIST).permitAll()
                 .anyRequest().authenticated()
                 .and()

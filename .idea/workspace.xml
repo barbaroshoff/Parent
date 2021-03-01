@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="" />
+    <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/WebSecurityConfig.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IntelliJConfiguration">
     <option name="PROPERTY_FILES">
@@ -132,7 +145,12 @@
       <workItem from="1614165155261" duration="4624000" />
       <workItem from="1614170212777" duration="4589000" />
       <workItem from="1614252295032" duration="3322000" />
-      <workItem from="1614258459684" duration="463000" />
+      <workItem from="1614258459684" duration="4116000" />
+      <workItem from="1614427766350" duration="330000" />
+      <workItem from="1614582961343" duration="2334000" />
+      <workItem from="1614591113268" duration="3915000" />
+      <workItem from="1614599090949" duration="298000" />
+      <workItem from="1614602704320" duration="332000" />
     </task>
     <servers />
   </component>
