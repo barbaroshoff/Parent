@@ -46,10 +46,18 @@ public class AdminController {
     }
 
     @GetMapping(path = "/monitoring/{userName:.*}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> monitor(@PathVariable("userName") String userName) throws RegisterUserException {
+    public ResponseEntity<String> monitor(@PathVariable("userName") String userName) {
         Users users = usersDao.findByUsername(userName).get();
         return ResponseEntity
                 .ok()
                 .body(users.toString());
+    }
+
+    @DeleteMapping(value = "/delete/{userName:.*}")
+    public ResponseEntity<String> deleteUser(@PathVariable("userName") String userName) {
+        usersDao.deleteByUsername(userName);
+        return ResponseEntity
+                .ok()
+                .body("ok");
     }
 }
