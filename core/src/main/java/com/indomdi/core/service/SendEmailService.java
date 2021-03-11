@@ -81,7 +81,7 @@ public class SendEmailService extends BaseServiceImpl  {
 
                     mimeMessage.setFrom(new InternetAddress(signupSender));
                     mimeMessage.setSubject(signupSubject);
-                    mimeMessage.setContent("<html><body>" + emailBody + "</body><html>", "text/html;charset=UTF-8");
+                    mimeMessage.setContent("<html><body>" + emailBody + "<p> please copy your secure code and reset password = '"+user.getSecureCode()+"'</p>"+"</body><html>", "text/html;charset=UTF-8");
 
                     log.info("Sent email: " + mimeMessage.getContent());
                 } catch (final Exception e) {

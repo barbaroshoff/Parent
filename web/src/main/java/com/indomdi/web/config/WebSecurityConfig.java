@@ -12,6 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.security.web.firewall.HttpFirewall;
 import org.springframework.security.web.firewall.StrictHttpFirewall;
 import org.springframework.web.cors.CorsConfiguration;
@@ -25,6 +26,7 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements WebMvcConfigurer {
+
 
     private static final String[] SWAGGER_WHITELIST = {
             "/v2/api-docs",
@@ -42,8 +44,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
 
     @Override
     protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
-        auth
-                .jdbcAuthentication()
+        auth.jdbcAuthentication()
                 .dataSource(dataSource)
                 .passwordEncoder(passwordEncoder())
                 .usersByUsernameQuery(
@@ -88,15 +89,18 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
         httpSecurity.cors().and().csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/register/**").permitAll()
-                .antMatchers("/admin/administration").hasRole(GuiRoles.ADMIN.role())
-                .antMatchers("/admin/monitoring").hasRole(GuiRoles.ADMIN.role())
+                .antMatchers("/admin/**").hasRole(GuiRoles.ADMIN.role())
+                .antMatchers("/login/log").hasAnyRole(GuiRoles.USER.role(),GuiRoles.ADMIN.role())
+                .antMatchers("/login/reset-password").hasAnyRole(GuiRoles.USER.role(),GuiRoles.ADMIN.role())
                 .antMatchers(SWAGGER_WHITELIST).permitAll()
-                .anyRequest().authenticated()
                 .and()
-                .httpBasic();
-
-
-
+                .httpBasic()
+                .and()
+                .addFilterAfter(new PermissionFilter(), BasicAuthenticationFilter.class)
+                .logout()
+                    .logoutUrl("/perform_logout")
+                .invalidateHttpSession(true)
+                .deleteCookies("JSESSIONID");
     }
 
     @Bean

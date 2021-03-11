@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "USERS", indexes = { @Index(columnList = "username", unique = true) })
+@Table(name = "USERS", indexes = { @Index(columnList = "username", unique = true) },
+        uniqueConstraints={@UniqueConstraint(columnNames={"username","email"})}
+)
 public class Users extends AuditedEntity {
     private static final long serialVersionUID = 4604308295327720720L;
 

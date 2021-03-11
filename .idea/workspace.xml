@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20201115.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/core_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/core_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/deploy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/deploy_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/DefaultTestUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/DefaultTestUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/SendEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/SendEmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/DefaultTestUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/DefaultTestUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/SendEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/SendEmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +98,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Проекты" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,25 +109,25 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/deploy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/core/src/main/resources" />
-      <recent name="$PROJECT_DIR$/deploy/src/main/java" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/persistent/common" />
-      <recent name="$PROJECT_DIR$/web" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="persistent.common" />
       <recent name="com.indomdi.core.config" />
       <recent name="com.indomdi.core.converter" />
       <recent name="com.indomdi.core.dao" />
       <recent name="persistent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deploy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/core/src/main/resources" />
+      <recent name="$PROJECT_DIR$/deploy/src/main/java" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/persistent/common" />
+      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,7 +177,15 @@
       <workItem from="1614582961343" duration="2334000" />
       <workItem from="1614591113268" duration="3915000" />
       <workItem from="1614599090949" duration="298000" />
-      <workItem from="1614602704320" duration="1017000" />
+      <workItem from="1614602704320" duration="1488000" />
+      <workItem from="1614605522860" duration="1201000" />
+      <workItem from="1614671357103" duration="4018000" />
+      <workItem from="1614689997855" duration="1947000" />
+      <workItem from="1614768439035" duration="757000" />
+      <workItem from="1614769333363" duration="6037000" />
+      <workItem from="1614780548692" duration="15631000" />
+      <workItem from="1615234077247" duration="6703000" />
+      <workItem from="1615448564121" duration="625000" />
     </task>
     <servers />
   </component>

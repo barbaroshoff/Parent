@@ -67,6 +67,7 @@ public class DefaultTestUsers {
             users.setSecurityQuestion("dsvdvfd");
             users.setSecurityAnswer("sada");
             users.setOrganization("aaaa");
+            users.setEnabled(false);
             users.setCity("Chisinau");
             users.setGuiRoles(GuiRoles.USER);
 
