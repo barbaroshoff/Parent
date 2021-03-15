@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20201115.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/core_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/core_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/deploy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/deploy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/DefaultTestUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/DefaultTestUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/SendEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/SendEmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/DefaultTestUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/DefaultTestUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/SendEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/SendEmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +105,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="deploy" />
       <extension name="net.ashald.envfile">
@@ -185,7 +170,13 @@
       <workItem from="1614769333363" duration="6037000" />
       <workItem from="1614780548692" duration="15631000" />
       <workItem from="1615234077247" duration="6703000" />
-      <workItem from="1615448564121" duration="625000" />
+      <workItem from="1615448564121" duration="1802000" />
+      <workItem from="1615456479743" duration="2124000" />
+      <workItem from="1615537235241" duration="998000" />
+      <workItem from="1615555523430" duration="598000" />
+      <workItem from="1615794637903" duration="1584000" />
+      <workItem from="1615798725969" duration="1752000" />
+      <workItem from="1615806740862" duration="3681000" />
     </task>
     <servers />
   </component>

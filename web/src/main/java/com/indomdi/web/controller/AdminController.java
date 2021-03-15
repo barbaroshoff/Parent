@@ -4,10 +4,10 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 import com.indomdi.core.dao.UsersDao;
 import com.indomdi.core.dto.PermissionsDto;
 import com.indomdi.core.dto.UserEditDto;
+import com.indomdi.core.dto.UserListDto;
 import com.indomdi.core.dto.UsersListDto;
 import com.indomdi.core.persistent.Users;
 import com.indomdi.core.service.RegisterService;
@@ -80,25 +80,23 @@ public class AdminController {
 
     @GetMapping(path = "/list", produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value = "Get (paginated) users list")
-    public ResponseEntity<List<String>> getUsersList() {
+    public ResponseEntity<UserListDto> getUsersList() throws JsonProcessingException {
 
         final List<Users> result = usersDao.findAll();
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.configure(JsonGenerator.Feature.QUOTE_FIELD_NAMES, false);
         objectMapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES, true);
         ModelMapper modelMapper = new ModelMapper();
-        List<String> list = new ArrayList<>();
+        UserListDto userListDto = new UserListDto();
+
+        List<UsersListDto> users = new ArrayList<>();
         result.stream().forEach(user -> {
             UsersListDto usersListDto =  modelMapper.map(user, UsersListDto.class);
-            try {
-                list.add(objectMapper.writeValueAsString(usersListDto));
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
+            users.add(usersListDto);
         });
-
+        userListDto.setUsers(users);
         return ResponseEntity
-                .ok(list);
+                .ok(userListDto);
     }
 
 }

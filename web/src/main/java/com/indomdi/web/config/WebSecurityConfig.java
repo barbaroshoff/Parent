@@ -98,7 +98,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
                 .and()
                 .addFilterAfter(new PermissionFilter(), BasicAuthenticationFilter.class)
                 .logout()
-                    .logoutUrl("/perform_logout")
+                .logoutUrl("/perform_logout")
                 .invalidateHttpSession(true)
                 .deleteCookies("JSESSIONID");
     }
