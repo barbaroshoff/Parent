@@ -265,7 +265,7 @@ public class Users extends AuditedEntity {
                 ", authorities=" + authorities +
                 ", guiRoles=" + guiRoles +
                 ", firstName='" + firstName + '\'' +
-                ", middleName='" + city + '\'' +
+                ", city='" + city + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", country='" + country + '\'' +

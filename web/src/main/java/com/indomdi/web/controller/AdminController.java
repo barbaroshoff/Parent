@@ -5,10 +5,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.indomdi.core.dao.UsersDao;
-import com.indomdi.core.dto.PermissionsDto;
-import com.indomdi.core.dto.UserEditDto;
-import com.indomdi.core.dto.UserListDto;
-import com.indomdi.core.dto.UsersListDto;
+import com.indomdi.core.dto.*;
 import com.indomdi.core.persistent.Users;
 import com.indomdi.core.service.RegisterService;
 import io.swagger.annotations.Api;
@@ -33,11 +30,11 @@ public class AdminController {
     @Autowired
     private UsersDao usersDao;
 
-
     // equals administration as in technical task
     @PutMapping(path = "/edit/{userName:.*}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value = "Edit user details by username")
-    public ResponseEntity<String> edit(@PathVariable("userName") String userName,@RequestBody UserEditDto userDto){
+    public ResponseEntity<String> edit(@PathVariable("userName") String userName,
+                                       @RequestBody UserEditDto userDto){
         Users users = usersDao.findByUsername(userName).get();
         users.setFirstName(userDto.getFirstName());
         users.setLastName(userDto.getLastName());
@@ -53,19 +50,12 @@ public class AdminController {
 
     @PutMapping(path = "/permissions/{userName:.*}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value = "Edit user details by username")
-    public ResponseEntity<String> editPermissions(@PathVariable("userName") String userName,@RequestBody PermissionsDto permissionsDto){
+    public ResponseEntity<String> editPermissions(@PathVariable("userName") String userName,
+                                                  @RequestBody PermissionsDto permissionsDto){
         Users users = usersDao.findByUsername(userName).get();
         users.setEnabled(permissionsDto.getEnabled());
         usersDao.save(users);
         return ResponseEntity.ok().body("ok");
-    }
-
-    @GetMapping(path = "/monitoring/{userName:.*}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> monitor(@PathVariable("userName") String userName) {
-        Users users = usersDao.findByUsername(userName).get();
-        return ResponseEntity
-                .ok()
-                .body(users.toString());
     }
 
     @DeleteMapping(value = "/delete/{userName:.*}")
@@ -76,7 +66,16 @@ public class AdminController {
                 .body("ok");
     }
 
+    @GetMapping(path = "/monitoring/{userName:.*}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<UsersViewDto> monitor(@PathVariable("userName") String userName) {
+        Users users = usersDao.findByUsername(userName).get();
+        ModelMapper modelMapper = new ModelMapper();
+        UsersViewDto usersViewDto = modelMapper.map(users, UsersViewDto.class);
 
+        return ResponseEntity
+                .ok()
+                .body(usersViewDto);
+    }
 
     @GetMapping(path = "/list", produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value = "Get (paginated) users list")

@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ListRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RoleListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersViewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersListDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersListDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -87,19 +97,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="persistent.common" />
-      <recent name="com.indomdi.core.config" />
-      <recent name="com.indomdi.core.converter" />
-      <recent name="com.indomdi.core.dao" />
-      <recent name="persistent" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/deploy/src/main/resources" />
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
       <recent name="$PROJECT_DIR$/deploy/src/main/java" />
       <recent name="$PROJECT_DIR$/core/src/main/java/persistent/common" />
       <recent name="$PROJECT_DIR$/web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="persistent.common" />
+      <recent name="com.indomdi.core.config" />
+      <recent name="com.indomdi.core.converter" />
+      <recent name="com.indomdi.core.dao" />
+      <recent name="persistent" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +174,11 @@
       <workItem from="1615794637903" duration="1584000" />
       <workItem from="1615798725969" duration="1752000" />
       <workItem from="1615806740862" duration="3995000" />
-      <workItem from="1615815913971" duration="315000" />
+      <workItem from="1615815913971" duration="2635000" />
+      <workItem from="1615890049225" duration="2985000" />
+      <workItem from="1615893468143" duration="5518000" />
+      <workItem from="1615901097821" duration="3031000" />
+      <workItem from="1615926455544" duration="594000" />
     </task>
     <servers />
   </component>
