@@ -9,8 +9,6 @@ public class UserEditDto {
     private String firstName;
     @Column(name = "lastName", nullable = true, length = 40)
     private String lastName;
-    @Column(name = "email", nullable = true, length = 50)
-    private String email;
     @Column(name = "country", nullable = true, length = 30)
     private String country;
     @Column(name = "city", nullable = true, length = 40)

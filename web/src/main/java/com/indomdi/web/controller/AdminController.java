@@ -38,7 +38,6 @@ public class AdminController {
         Users users = usersDao.findByUsername(userName).get();
         users.setFirstName(userDto.getFirstName());
         users.setLastName(userDto.getLastName());
-        users.setEmail(userDto.getEmail());
         users.setCountry(userDto.getCountry());
         users.setCity(userDto.getCity());
         users.setSecurityQuestion(userDto.getSecurityQuestion());

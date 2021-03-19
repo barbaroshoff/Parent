@@ -8,15 +8,10 @@
       <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ListRoleDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RoleListDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersViewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersListDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersListDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersListDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
