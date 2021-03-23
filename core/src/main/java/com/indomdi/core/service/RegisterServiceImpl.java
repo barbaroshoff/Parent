@@ -130,4 +130,11 @@ public class RegisterServiceImpl extends BaseServiceImpl implements RegisterServ
         response.setMessage("Secure code validation successful...");
         return response;
     }
+
+    @Override
+    @Transactional
+    public void deleteUser(String userName) {
+        Users users = usersDao.findByUsername(userName).orElse(null);
+        usersDao.delete(users);
+    }
 }

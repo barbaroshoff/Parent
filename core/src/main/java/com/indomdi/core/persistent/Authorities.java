@@ -16,7 +16,7 @@ public class Authorities extends AuditedEntity {
     @Column(name = "authority", nullable = false, length = 50)
     private String authority;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "username", referencedColumnName = "username", nullable = false)
     private Users user;
 

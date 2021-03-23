@@ -60,6 +60,7 @@ public class AdminController {
     @DeleteMapping(value = "/delete/{userName:.*}")
     public ResponseEntity<String> deleteUser(@PathVariable("userName") String userName) {
         usersDao.deleteByUsername(userName);
+
         return ResponseEntity
                 .ok()
                 .body("ok");

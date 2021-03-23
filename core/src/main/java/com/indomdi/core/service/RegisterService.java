@@ -11,4 +11,6 @@ public interface RegisterService {
     RegisterResponseDto signup(@NonNull @Valid RegisterUserDto userDto) throws RegisterUserException;
 
     RegisterResponseDto validateSecureCode(@NonNull String secureCode);
+
+    void deleteUser(String userName);
 }
