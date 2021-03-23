@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Authorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Authorities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Authorities.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Authorities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" afterDir="false" />
@@ -111,6 +109,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="deploy" />
       <extension name="net.ashald.envfile">
@@ -191,6 +200,10 @@
       <workItem from="1616493014561" duration="641000" />
       <workItem from="1616496015193" duration="443000" />
       <workItem from="1616497196543" duration="60000" />
+      <workItem from="1616498524312" duration="874000" />
+      <workItem from="1616501803597" duration="3836000" />
+      <workItem from="1616505876764" duration="1208000" />
+      <workItem from="1616509964894" duration="1791000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,7 @@ public class Users extends AuditedEntity {
     @Column(name = "enabled", nullable = false)
     private Boolean enabled;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
     private List<Authorities> authorities;
 
     @Column(name="role", nullable = true,length = 25)

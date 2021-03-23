@@ -57,9 +57,10 @@ public class AdminController {
         return ResponseEntity.ok().body("ok");
     }
 
+
     @DeleteMapping(value = "/delete/{userName:.*}")
     public ResponseEntity<String> deleteUser(@PathVariable("userName") String userName) {
-        usersDao.deleteByUsername(userName);
+        signupService.deleteUser(userName);
 
         return ResponseEntity
                 .ok()

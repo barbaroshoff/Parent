@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import com.indomdi.core.persistent.Users;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
@@ -12,6 +13,7 @@ import java.util.Optional;
 public interface UsersDao   extends JpaRepository<Users,String> {
     Optional<Users> findByUsername(String username);
 
+    
     void deleteByUsername(String username);
 
     Users findByEmail(String email);
