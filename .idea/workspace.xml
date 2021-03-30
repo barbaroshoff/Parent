@@ -5,25 +5,157 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37139859-d863-4484-ad7f-88031cfadd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Authorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Authorities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/AppParamsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/config/AppParamsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/CoreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/config/CoreConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/DefaultTestUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/config/DefaultTestUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/GuiRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/config/GuiRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/config/JmsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/config/JmsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/converter/CommonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/converter/CommonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/converter/ForgottenUserPasswordConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/converter/ForgottenUserPasswordConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/converter/RegisterUserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/converter/RegisterUserConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/AuthoritiesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dao/AuthoritiesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/ForgottenUserPasswordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dao/ForgottenUserPasswordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/RegisterUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dao/RegisterUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dao/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/FilterComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/FilterComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/FilterUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/FilterUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ForgottenPasswordRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/ForgottenPasswordRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ListRoleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/ListRoleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/PermissionsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/PermissionsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/RegisterResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RegisterUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/RegisterUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ResetPasswordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/ResetPasswordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/ResetResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/ResetResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/RoleListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/RoleListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UserDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/UserDetailsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UserEditDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/UserEditDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UserListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/UserListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/UsersListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/dto/UsersViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/dto/UsersViewDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/exception/JmsErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/exception/JmsErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/exception/RegisterUserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/exception/RegisterUserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/exception/SignupUserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/exception/SignupUserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Authorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/Authorities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/ForgottenUserPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/ForgottenUserPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/RegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/AuditedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/AuditedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/BaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/BaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/ErrorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/Identifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/Identifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/QueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/persistent/common/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/persistent/common/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/RegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/RegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/indomdi/core/service/SendEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/indomdi/com/core/service/SendEmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/AppParamsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/CoreConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/DefaultTestUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/GuiRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/config/JmsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/converter/CommonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/converter/ForgottenUserPasswordConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/converter/RegisterUserConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/AbstractDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/AuthoritiesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/ForgottenUserPasswordDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/RegisterUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dao/UsersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/FilterComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/FilterUsers$Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/FilterUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/ForgottenPasswordRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/ListRoleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/Pagination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/PermissionsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/RegisterResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/RegisterUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/ResetPasswordDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/ResetResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/RoleListDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UserDetailsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UserEditDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UserListDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersListDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/dto/UsersViewDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/exception/JmsErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/exception/RegisterUserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/exception/SignupUserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Authorities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/ForgottenUserPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/RegisterUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/AuditedEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/ErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/Identifiable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/persistent/common/ResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/RegisterServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/indomdi/core/service/SendEmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/src/main/java/com/indomdi/deploy/DeployApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/java/com/indomdi/com/deploy/DeployApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/src/main/java/com/indomdi/deploy/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/src/main/java/com/indomdi/deploy/config/ExternalConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/java/com/indomdi/com/deploy/config/ExternalConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/ExtConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/GuiRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/PermissionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/config/PermissionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/SwaggerConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/config/SwaggerConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/indomdi/web/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/indomdi/com/web/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/ExtConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/PermissionFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/SwaggerConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/indomdi/web/controller/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClassPatternConfiguration">
+    <testPatterns>
+      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+    </testPatterns>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +184,41 @@
     <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
     <option name="LABEL_PART_2" value="&quot;/&gt;" />
   </component>
+  <component name="JUnitClassTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Class.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Class.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitMethodTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Method.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Method.java" />
+          <item index="1" class="java.lang.String" itemvalue="Test Method throws Exception.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitTestConfiguration">
+    <option name="IS_AUTO_TEST_CLASS_RENAME_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_MOVE_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_REFACTORING_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_METHODS_RENAME_ENABLED" value="true" />
+    <option name="IS_UNTESTED_METHOD_ICON_ENABLED" value="true" />
+    <option name="IS_GET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_SET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_UNIT_TEST_ENABLED" value="true" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -61,8 +228,14 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="1oZGZInQ6y0P0V9Wuxu2Fgihpxf" />
@@ -79,7 +252,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/deploy/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,16 +263,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/deploy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/core/src/main/resources" />
-      <recent name="$PROJECT_DIR$/deploy/src/main/java" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/persistent/common" />
-      <recent name="$PROJECT_DIR$/web" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="persistent.common" />
       <recent name="com.indomdi.core.config" />
@@ -107,19 +273,27 @@
       <recent name="com.indomdi.core.dao" />
       <recent name="persistent" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deploy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/core/src/main/resources" />
+      <recent name="$PROJECT_DIR$/deploy/src/main/java" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/persistent/common" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="deploy" />
       <extension name="net.ashald.envfile">
@@ -132,14 +306,15 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.indomdi.deploy.DeployApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.indomdi.com.deploy.DeployApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -204,22 +379,48 @@
       <workItem from="1616501803597" duration="3836000" />
       <workItem from="1616505876764" duration="1208000" />
       <workItem from="1616509964894" duration="1791000" />
+      <workItem from="1616511853350" duration="108000" />
+      <workItem from="1616573433728" duration="1887000" />
+      <workItem from="1616575405724" duration="1198000" />
+      <workItem from="1616586385354" duration="50000" />
+      <workItem from="1616589963529" duration="1574000" />
+      <workItem from="1616593918930" duration="254000" />
+      <workItem from="1616594188023" duration="28000" />
+      <workItem from="1616594385392" duration="617000" />
+      <workItem from="1616595948869" duration="882000" />
+      <workItem from="1616598223561" duration="478000" />
+      <workItem from="1616657686942" duration="1071000" />
+      <workItem from="1616660587448" duration="600000" />
+      <workItem from="1616668591552" duration="601000" />
+      <workItem from="1616671098118" duration="1119000" />
+      <workItem from="1616672993161" duration="614000" />
+      <workItem from="1616674935102" duration="665000" />
+      <workItem from="1616676797127" duration="359000" />
+      <workItem from="1616678425085" duration="1147000" />
+      <workItem from="1616681702029" duration="761000" />
+      <workItem from="1616761264697" duration="1872000" />
+      <workItem from="1616763174823" duration="1805000" />
+      <workItem from="1616764992068" duration="514000" />
+      <workItem from="1616765512598" duration="824000" />
+      <workItem from="1616996844390" duration="4996000" />
+      <workItem from="1617019111290" duration="4215000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
