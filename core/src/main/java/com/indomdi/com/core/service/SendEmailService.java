@@ -15,6 +15,7 @@ import org.springframework.mail.MailException;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import com.indomdi.com.core.persistent.ForgottenUserPassword;
 import com.indomdi.com.core.persistent.RegisterUser;
@@ -27,7 +28,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Service
-public class SendEmailService extends BaseServiceImpl  {
+public class SendEmailService extends BaseServiceImpl {
 
 
     @Autowired

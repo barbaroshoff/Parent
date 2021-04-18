@@ -4,6 +4,7 @@ import com.indomdi.com.core.config.GuiRoles;
 import com.indomdi.com.core.persistent.common.AuditedEntity;
 
 import javax.persistence.*;
+import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
@@ -13,7 +14,6 @@ import java.util.Objects;
 )
 public class Users extends AuditedEntity {
 
-    private static final long serialVersionUID = 4604308295327720720L;
 
     @Column(name = "username", nullable = false, unique = true, length = 50)
     private String username;
@@ -24,6 +24,7 @@ public class Users extends AuditedEntity {
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
     private List<Authorities> authorities;
+
 
     @Column(name="role", nullable = true,length = 25)
     private GuiRoles guiRoles;
@@ -43,6 +44,9 @@ public class Users extends AuditedEntity {
     private String organization;
     @Column(name = "securityQuestion", nullable = true, length = 80)
     private String securityQuestion;
+
+    public Users() {
+    }
 
     /**
      * @return the username
@@ -77,7 +81,7 @@ public class Users extends AuditedEntity {
     /**
      * @return the enabled
      */
-    public Boolean getEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 

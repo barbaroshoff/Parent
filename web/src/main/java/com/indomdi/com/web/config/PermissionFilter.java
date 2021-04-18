@@ -36,7 +36,7 @@ public class PermissionFilter  extends GenericFilterBean {
             }catch(Exception e){
                 System.out.println("user not found");
             }
-            if (usr != null && usr.getEnabled() == false)
+            if (usr != null && usr.isEnabled() == false)
                 throw new IOException();
         }
 
